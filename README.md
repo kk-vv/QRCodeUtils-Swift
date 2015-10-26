@@ -1,6 +1,8 @@
 # QRCodeUtils-Swift
 文本转换成二维码 并修改颜色
 
+ ![image](https://github.com/iFallen/QRCodeUtils-Swift/master/ScreenShots/screenShot1.png)
+
 使用方法：
 
 生成二维码：
