@@ -1,15 +1,16 @@
-# QRCodeUtils-Swift
-文本转换成二维码 并修改颜色
+#Swift-文本转换二维码
 
- ![image](https://raw.githubusercontent.com/iFallen/QRCodeUtils-Swift/master/ScreenShots/screenShot1.png)
+## 使用方法  
+---
+<br />
 
-使用方法：
+```
+	var image = HQRCodeUtils.createQRCodeForString("http://www.baidu.com", size: 200,level: HCorrectionLevel.Default)
+	image = HQRCodeUtils.changeImageColor(image, red: 100, green: 200, blue: 125)
+	imageView.image = image
+```
 
-生成二维码：
-var image = HQRCodeUtils.createQRCodeForString("http://sk.qihulu.cn/ckkj-wechat/web/home/getHome?f=740691&promoCode=3733aa&inviteCode=3733aa", size: 200,level: HCorrectionLevel.Default)
-
-修改颜色：
-image = HQRCodeUtils.changeImageColor(image, red: 100, green: 200, blue: 125)
-
-显示：
-imageView.image = image
+## 效果图
+---
+<br />
+![screen shot](https://github.com/iFallen/QRCodeUtils-Swift/raw/master/ScreenShots/screenShot1.png "效果图")
