@@ -18,5 +18,5 @@
 
 ## 效果图
 ---
-<br />
-![screen shot](https://github.com/iFallen/QRCodeUtils-Swift/raw/master/ScreenShots/screenShot1.png "效果图")
+>
+![screen shot](https://github.com/iFallen/QRCodeUtils-Swift/raw/master/ScreenShots/screenShot.png)
